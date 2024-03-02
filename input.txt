@@ -1,0 +1,16 @@
+input
+textarea
+select
+
+input
+text
+number
+date
+email
+password
+radio
+checkbox
+
+submit
+button
+reset

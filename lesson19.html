@@ -2,13 +2,17 @@
 <!-- select -->
 <!-- text-area -->
 
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1 align="center">
         register with us
@@ -30,23 +34,78 @@
                 <td><input type="email" name="useremail"></td>
             </tr>
             <tr>
+                <td>password : </td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
                 <td>enter date of birth : </td>
                 <td><input type="date" name="dob"></td>
             </tr>
 
             <tr>
-                <td >enter your gender : </td>
+                <td valign="top">enter your gender : </td>
                 <td>
 
-                   <label for="male" >
-                    <input type="radio" id="male" name="gender" >male
-                   </label> <br>
-                   <label for="female">
-                    <input type="radio" name="gender" id="female">female
-                   </label>
+                    <label for="male">
+                        <input type="radio" id="male" name="gender">male
+                    </label> <br>
+                    <label for="female">
+                        <input type="radio" name="gender" id="female">female
+                    </label>
                 </td>
+            </tr>
+            <tr>
+                <td valign="top">language : </td>
+                <td>
+                    <label for="hindilanguage">
+                        <input type="checkbox" id="hindilanguage" name="box1">hindi
+                    </label>
+                    &nbsp;&nbsp;
+                    <label for="lan2">
+                        <input type="checkbox" id="lan2" name="box1">gujrati
+                    </label>
+                    <br>
+                    <label for="lan3">
+                        <input type="checkbox" name="box1" id="lan3">english
+                    </label>
+                    <label for="lan4">
+                        <input type="checkbox" name="box1" id="lan4">marthi
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td>enter image : </td>
+                <td><input type="file" name="photo" accept="image/*"></td>
+            </tr>
+
+            <tr>
+                <td>select city : </td>
+                <td>
+                    <select name="city" id="">
+                        <option value="">select city</option>
+                        <option value="1">bhavnagar</option>
+                        <option value="2">rajkot</option>
+                        <option value="3">surat</option>
+                        <option value="4">baroda</option>
+                        <option value="5">amreli</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">enter message : </td>
+                <td>
+                    <textarea name="messag" rows="3" cols="30"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="register"></td>
             </tr>
         </table>
     </form>
+
 </body>
+
 </html>
