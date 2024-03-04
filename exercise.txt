@@ -1,3 +1,5 @@
 exercises
 
 1) make a webpage that has 6 video of youtube , make youtube manubar  , each video has a heading , and text.
+
+2) make recipe website

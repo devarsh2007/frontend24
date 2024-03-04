@@ -19,27 +19,27 @@
     </h1>
 
     <hr>
-    <form action="">
+    <form action="success.html">
         <table border="1" align="center" cellpadding="10">
             <tr>
-                <td>user name : </td>
-                <td><input type="text" name="name"></td>
+                <td>user name <font color="red">*</font> : </td>
+                <td><input type="text" name="name" required></td>
             </tr>
             <tr>
                 <td>mobile no : </td>
-                <td><input type="number" name="moblie"></td>
+                <td><input type="number" name="moblie" required></td>
             </tr>
             <tr>
                 <td>enter your email :</td>
-                <td><input type="email" name="useremail"></td>
+                <td><input type="email" name="useremail" required></td>
             </tr>
             <tr>
                 <td>password : </td>
-                <td><input type="password" name="password"></td>
+                <td><input type="password" name="password" required></td>
             </tr>
             <tr>
                 <td>enter date of birth : </td>
-                <td><input type="date" name="dob"></td>
+                <td><input type="date" name="dob" required></td>
             </tr>
 
             <tr>
@@ -47,7 +47,7 @@
                 <td>
 
                     <label for="male">
-                        <input type="radio" id="male" name="gender">male
+                        <input type="radio" id="male" name="gender" required>male
                     </label> <br>
                     <label for="female">
                         <input type="radio" name="gender" id="female">female
@@ -73,6 +73,7 @@
                     </label>
                 </td>
             </tr>
+
             <tr>
                 <td>enter image : </td>
                 <td><input type="file" name="photo" accept="image/*"></td>
@@ -100,8 +101,16 @@
             </tr>
 
             <tr>
+                <td>enter video : </td>
+                <td><input type="file" name="video1" accept="video/*"></td>
+            </tr>
+
+            <tr>
                 <td></td>
-                <td><input type="submit" value="register"></td>
+                <td><input type="submit" value="register">
+                    <input type="button" value="button">
+                    <input type="reset" value="clear">
+                </td>
             </tr>
         </table>
     </form>
