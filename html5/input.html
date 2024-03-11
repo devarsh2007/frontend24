@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">
+        working with input 
+    </h1>
+    <hr>
+    <form action="success.html" method="post" autocomplete="on">
+        <table border="1" align="center" cellpadding="10">
+            <tr>
+                <td><label for="username">user name : </label></td>
+                <td><input type="text" name="name" id="username" required></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">enter email : </label>
+                </td>
+                <td>
+                    <input type="email" id="email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="color">favorite color : </label>
+                </td>
+                <td>
+                    <input type="color" name="color" id="color">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="bod">enter birth date :</label>
+                </td>
+                <td>
+                    <input type="datetime-local" id="bod" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="date">date:</label>
+                </td>
+                <td>
+                    <input type="date" name="date" id="date">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="time">enter time : </label>
+                </td>
+                <td>
+                    <input type="time" name="time" id="time">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="mobile_no">mobile no : </label>
+                </td>
+                <td>
+                    <input type="tel" name="mobile_no" id="mobile_no" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="link">enter your website link : </label>
+                </td>
+                <td>
+                    <input type="url" name="link" id="link">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="adhar_card">enter adhar card : </label>
+                </td>
+                <td>
+                    <input type="file" name="adhar_card" id="adhar_card" accept=".pdf , .png">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="submit" >
+                    <input type="reset" name="" id="" value="clear">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
