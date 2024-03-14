@@ -10,18 +10,18 @@
         working with input 
     </h1>
     <hr>
-    <form action="success.html" method="post" autocomplete="on" novalidate>
+    <form action="success.html" method="post" autocomplete="on" >
         <table border="1" align="center" cellpadding="10">
             <tr>
                 <td><label for="username">user name : </label></td>
-                <td><input type="text" name="name" id="username" autofocus required></td>
+                <td><input type="text" name="name" id="username" autofocus required placeholder="abc123"></td>
             </tr>
             <tr>
                 <td>
                     <label for="email">enter email : </label>
                 </td>
                 <td>
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" required placeholder="abc@gmail.com">
                 </td>
             </tr>
 
@@ -66,7 +66,7 @@
                     <label for="mobile_no">mobile no : </label>
                 </td>
                 <td>
-                    <input type="tel" name="mobile_no" id="mobile_no" autofocus required>
+                    <input type="tel" name="mobile_no" id="mobile_no" autofocus required placeholder="enter 10 digit number">
                 </td>
             </tr>
 
@@ -84,7 +84,34 @@
                     <label for="adhar_card">enter adhar card : </label>
                 </td>
                 <td>
-                    <input type="file" name="adhar_card" id="adhar_card" accept=".pdf , .png">
+                    <input type="file" name="adhar_card" id="adhar_card" accept=".pdf , .png" multiple>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="num">enter number :</label>
+                </td>
+                <td>
+                    <input type="number" name="num" id="num" min="10" max="100" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="age">enter age :</label>
+                </td>
+                <td>
+                    <input type="number" name="age" id="age" min="18" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="date">enter booking date :</label>
+                </td>
+                <td>
+                    <input type="date" name="date" id="date" min="2024-03-14" max="2024-03-17">
                 </td>
             </tr>
 
