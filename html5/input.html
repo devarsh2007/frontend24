@@ -6,6 +6,9 @@
     <title>Document</title>
 </head>
 <body>
+
+    <!-- patern website: html5 patern -->
+
     <h1 align="center">
         working with input 
     </h1>
@@ -14,7 +17,7 @@
         <table border="1" align="center" cellpadding="10">
             <tr>
                 <td><label for="username">user name : </label></td>
-                <td><input type="text" name="name" id="username" autofocus required placeholder="abc123"></td>
+                <td><input type="text" name="name" id="username" autofocus required placeholder="abcde123" pattern="[a-zA-Z]{5,}[0-9]{3,}"></td>
             </tr>
             <tr>
                 <td>
@@ -66,7 +69,7 @@
                     <label for="mobile_no">mobile no : </label>
                 </td>
                 <td>
-                    <input type="tel" name="mobile_no" id="mobile_no" autofocus required placeholder="enter 10 digit number">
+                    <input type="tel" name="mobile_no" id="mobile_no" autofocus required placeholder="enter 10 digit number" pattern="[0-9]{10}" >
                 </td>
             </tr>
 
