@@ -165,6 +165,7 @@
 #main_product {
      display: flex;
      gap: 50px;
+     margin-left: -900px;
 }
 
 .description {
@@ -236,4 +237,65 @@
      width: fit-content;
      word-break: break-word;
      border: 0;
+}
+
+#row2,
+#row {
+     display: flex;
+     gap: 30px;
+}
+
+#contact_us {
+     margin-top: 100px;
+     padding-top: 50px;
+     padding-bottom: 5px;
+     /* height: 1000px; */
+     background-color: #378881;
+     color: white;
+}
+
+#contact_heading {
+     font-size: 3.5rem;
+     font-family: "Mate", serif;
+
+}
+
+#form {
+     margin: 70px;
+}
+
+.form-label {
+     font-size: 1.9rem;
+     display: block;
+}
+
+.form-input {
+     width: 100%;
+     height: 40px;
+     font-size: 1.3rem;
+}
+
+.mt {
+     margin-top: 30px;
+}
+
+.form-textarea {
+     color: grey;
+     font-size: 1.3rem;
+}
+
+#footer {
+     margin-top: 40px;
+     padding: 30px;
+     color: white;
+     background-color: #378881;
+}
+
+.footer_image {
+     height: 50px;
+}
+
+#footer_content {
+     display: flex;
+     justify-content: space-between;
 }
